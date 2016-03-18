@@ -1,16 +1,13 @@
-var selectedElement = document.getElementById( 'heading' );
-var newDOMElement = document.createElement( 'article' );
+var submitform = document.getElementById( 'sendform' );
+var firstNameInput = document.getElementById( 'firstName' );
+var lastNameInput = document.getElementById( 'lastName' );
+var emailInput = document.getElementById( 'email' );
+var messageInput = document.getElementById( 'message' );
 
-heading.addEventListener( 'click', tally );
-
-function tally () {
-    newDOMElement.innerHTML = '<p>This is click number <a id="clicks">1</a></p>';
-    selectedElement.appendChild( newDOMElement );
-
-    var clicks = 0;
-    function onclick () {
-        clicks += 1;
-        document.getElementbyId( 'clicks' ).innerHTML = clicks;
-    }
-
-}
+submitform.addEventListener( 'submit', function( event ) {
+    event.preventDefault();
+    console.log( 'The firstName is:' + firstNameInput.value );
+    console.log( 'The lastName is:' + lastNameInput.value );
+    console.log( 'The email is:' + emailInput.value );
+    console.log( 'The message is:' + messageInput.value );
+} );
