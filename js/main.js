@@ -1,5 +1,12 @@
-var heading = document.getElementById( 'pageHeading' );
+heading.addEventListener( 'click', tally );
 
-document.getElementbyId( 'pageHeading' ).innerHTML = '<p>This is click number x </p>';
+function tally () {
+    heading.innerHTML =
+    '<p>This is click number <a id="count" onClick="onClick()">1</a></p>';
 
-var x = 0;
+    var count = 1;
+    function onClick () {
+        count++;
+        document.getElementbyId( 'count' ).innerHTML = count;
+    }
+}
