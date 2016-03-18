@@ -1,7 +1,5 @@
-var i = 1 ;
+var heading = document.getElementById( 'pageHeading' );
 
-document.getElementbyId('h2')addEventListener("click", displayText);
+document.getElementbyId( 'pageHeading' ).innerHTML = '<p>This is click number x </p>';
 
-function displayText() {
-    alert (" This is click number 'i' ++ ");
-}
+var x = 0;
