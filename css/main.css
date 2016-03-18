@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*: before,
+*: after {
+    box-sizing: inherit;
+}
+
+.site-container {
+    max-width: 1200px;
+}
+
+body {
+    background-color: #ffe6e6;
+    font-family: 'Cabin', sans-serif;
+    align-content: center;
+}
+
+#container {
+    width: 85%;
+    margin: auto;
+    padding: 2em;
+    background-color: #ffffff;
+    border-radius: 3em;
+}
+
+#ashleylogo,
+#ashley {
+    display: inline-block;
+    padding: 0.3em;
+}
+
+nav ul li {
+    display: inline-block;
+    padding-right: 1.2em;
+}
+
+nav ul li a,
+h3 a {
+    color: #262626;
+    text-decoration: none;
+    font-size: 1.5em;
+    text-align: center;
+    margin-top: 0.3em;
+}
