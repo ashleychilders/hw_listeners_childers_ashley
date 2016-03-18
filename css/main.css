@@ -45,3 +45,26 @@ h3 a {
     text-align: center;
     margin-top: 0.3em;
 }
+
+.btn {
+    font-size: 1.3em;
+    width: 14em;
+    text-align: center;
+    margin-bottom: 0.8em;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    margin-top: 0.3em;
+    border-radius: 3em;
+    -webkit-box-shadow: 0 0.3em 1em #666666;
+    -moz-box-shadow: 0 0.3em 1em #666666;
+    box-shadow: 0 0.3em 1em #666666;
+    background: #ff6699;
+    padding: 0.5em 1em 0.5em 1em;
+    color: #ffffff;
+    border: solid #ffffff 0.1em;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #cce6ff;
+}
