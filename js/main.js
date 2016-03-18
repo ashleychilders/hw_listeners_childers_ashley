@@ -4,7 +4,7 @@ var lastNameInput = document.getElementById( 'lastName' );
 var emailInput = document.getElementById( 'email' );
 var messageInput = document.getElementById( 'message' );
 
-sendform.addEventListener( 'submit', function( event ) {
+sendform.addEventListener( 'click', function( event ) {
     event.preventDefault();
     console.log( 'The firstName is:' + firstNameInput.value );
     console.log( 'The lastName is:' + lastNameInput.value );
