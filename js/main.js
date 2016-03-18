@@ -1,13 +1,7 @@
-var submitform = document.getElementById( 'sendform' );
-var firstNameInput = document.getElementById( 'firstName' );
-var lastNameInput = document.getElementById( 'lastName' );
-var emailInput = document.getElementById( 'email' );
-var messageInput = document.getElementById( 'message' );
-
-submitform.addEventListener( 'submit', function( event ) {
-    event.preventDefault();
-    console.log( 'The firstName is:' + firstNameInput.value );
-    console.log( 'The lastName is:' + lastNameInput.value );
-    console.log( 'The email is:' + emailInput.value );
-    console.log( 'The message is:' + messageInput.value );
-} );
+function onclick() {
+    var selectedElement = document.getElementById( 'heading' );
+    var newDOMElement = document.createElement( 'article' );
+    newDOMElement.innerHTML = '<p>This is click number <a href id="clicks">1</a></p>';
+    selectedElement.appendChild( newDOMElement );
+}
+heading.addEventListener( 'click', onclick );
