@@ -17,63 +17,50 @@ body {
 }
 
 #container {
-    width: 900px;
-    margin: auto;
+    align-self: center;
+    margin-left: 1em;
+    position: relative;
 }
 
-#form {
-    width: 700px;
-    margin: auto;
+form {
+    width: 350px;
+    padding: 1em;
     margin-bottom: 3em;
+    margin-top: 2em;
     background-color: #f9f7ea;
-    -webkit-border-radius: 30px 30px 30px 30px;
-    border-radius: 30px 30px 30px 30px;
-    -webkit-box-shadow: 5px 5px 5px 5px #d4d4d4;
-    box-shadow: 5px 5px 5px 5px #d4d4d4;
-}
-
-legend {
-    font-family: 'Raleway', sans-serif;
-    color: #4c4949;
-    font-size: 3em;
-    text-align: center;
-    padding: 1.5em;
+    -webkit-border-radius: 3em 3em 3em 3em;
+    border-radius: 3em 3em 3em 3em;
+    -webkit-box-shadow: 0.2em 0.2em 0.2em 0.2em #d4d4d4;
+    box-shadow: 0.2em 0.2em 0.2em 0.2em #d4d4d4;
 }
 
 label {
     display: block;
     font-family: 'Raleway', sans-serif;
-    font-size: 2.2em;
+    font-size: 1em;
     color: #4c4949;
-    margin-left: 1em;
-    padding: 1em 3em 1em 3em;
+    padding: 1em;
 }
 
 input[type="text"],
+input[type="email"],
 textarea {
-    border: 0.3em #393838;
+    border: 0.1em #393838;
     padding: 0.8em;
-}
-
-input[type="email"] {
-    border: 0.8empx #393838;
-    padding: 2em;
-    margin-left: 3em;
-}
-
-textarea {
-    margin-left: 15px;
-    padding: 4px;
+    margin-left: 1em;
 }
 
 #buttons {
-    margin-left: 500px;
+    margin-left: 1em;
+    margin-top: 0.3em;
+    margin-bottom: 0.3em;
 }
 
 input[type="submit"] {
-    padding: 9px;
-    margin-bottom: 10px;
-    border-radius: 10px;
+    padding: 0.8em;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    border-radius: 0.8em;
     background-color: #ff6666;
     color: white;
 }
