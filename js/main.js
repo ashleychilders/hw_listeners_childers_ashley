@@ -1,7 +1,12 @@
-function onclick() {
+function newtext() {
     var selectedElement = document.getElementById( 'heading' );
     var newDOMElement = document.createElement( 'article' );
-    newDOMElement.innerHTML = '<p>This is click number <a href id="clicks">1</a></p>';
+    newDOMElement.innerHTML = '<p>This is click number <a id="clicks">1</a></p>';
     selectedElement.appendChild( newDOMElement );
 }
-heading.addEventListener( 'click', onclick );
+var clicks = 1;
+    function onclick() {
+        clicks += 1;
+        document.getElementById( 'clicks' ).innerHTML = clicks;
+    }
+heading.addEventListener( 'click', newtext );
