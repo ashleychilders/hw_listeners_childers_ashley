@@ -5,7 +5,8 @@ function changeHTML () {
 
 heading.addEventListener( 'click', changeHTML );
 
-/*This is an event listener to change my name from Ashley to Rebeccca on heading click */
+/*This event listener listens for click on heading and then changes my
+name from Ashley to Rebeccca*/
 
 function addHTML () {
     var happy = document.getElementById( 'likes' );
@@ -15,11 +16,11 @@ function addHTML () {
 }
 
 likes.addEventListener( 'mouseover', addHTML );
-/*This adds the text I love Daniel continuously to my interests with mouseover*/
+/*This event listener listens to mouseover on the interests header and adds the text I love Daniel*/
 
 document.getElementById( 'message' ).addEventListener( 'click', showDate );
 
 function showDate () {
     document.getElementById( 'datetest' ).innerHTML = Date();
 }
-/*This adds the date when you select email me*/
+/*This is an event listener listens for a click on the email me button and displays the date*/
