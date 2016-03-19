@@ -8,9 +8,9 @@ https://git-scm.com/book/en/v2/Git-Basics-Tagging
 http://www.w3schools.com/js/js_htmldom_eventlistener.asp
 - I used this to get some inspiration for event listener types for my custom page.
 http://stackoverflow.com/questions/22402777/html-javascript-button-click-counter
-I used this to try to figure out how to have the count increase on the listener branch.
+- I used this to try to figure out how to have the count increase on the listener branch.
 http://www.w3schools.com/js/tryit.asp?filename=tryjs_function_counter
-I used this to get help with modifying my counter. It helped me to get part of it to work.
+- I used this to get help with modifying my counter. It helped me to get part of it to work.
 
 **Comments**
 
