@@ -1,6 +1,6 @@
-
 ## Link to Assignment on GitHub
-https://github.com/ashleychilders/hw_mq_childers_ashley
+https://github.com/ashleychilders/hw_listeners_childers_ashley
+
 
 ### Resources
 
@@ -10,11 +10,11 @@ https://github.com/ashleychilders/hw_mq_childers_ashley
         - I used this to get some inspiration for event listener types for my custom page.
     - http://stackoverflow.com/questions/22402777/html-javascript-button-click-counter
         - I used this to try to figure out how to have the count increase on the listener branch but I couldn't get it to work after trying several options.
+    - http://www.w3schools.com/js/tryit.asp?filename=tryjs_function_counter
+        - I used this to get help with modifying my counter. I got part of it to work.
 
 **Comments**
 
-1.) With this assignment I felt really comfortable using git. Compared to last week, I completed this assignment much faster and I think it has to do with understanding git better.
+1.) I spent many hours on this assignment. I needed too since I need to get a better grasp on coding javascript.
 
-2.) This is the first course in the program that has touched on how to set up a site with responsive design which I am very, very interested in as all web designers should be.  
-
-3.) I debated on whether to add screen after media or leave it blank, I decided to go with "@media only screen and".
+2.) Getting the counter to work on the listener branch was hard for me. I tried so many different types of code and finally got something that works but I couldn't figure out how to have only the one line of text showing once clicked. When I click the "Click Me" text it keeps adding a line of text underneath the text that has the correct counter. Hopefully I'll get half points on this. :)
