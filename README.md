@@ -3,6 +3,7 @@ https://github.com/ashleychilders/hw_listeners_childers_ashley
 
 
 ### Resources
+
 https://git-scm.com/book/en/v2/Git-Basics-Tagging
 - I used this link as a refresher on tags and how to create a branch with a tag.
 http://www.w3schools.com/js/js_htmldom_eventlistener.asp
