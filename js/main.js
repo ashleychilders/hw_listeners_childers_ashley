@@ -6,8 +6,8 @@ var messageInput = document.getElementById( 'message' );
 
 sendform.addEventListener( 'click', function( event ) {
     event.preventDefault();
-    console.log( 'The firstName is:' + firstNameInput.value );
-    console.log( 'The lastName is:' + lastNameInput.value );
-    console.log( 'The email is:' + emailInput.value );
-    console.log( 'The message is:' + messageInput.value );
+    console.log( 'The firstName is: ' + firstNameInput.value );
+    console.log( 'The lastName is: ' + lastNameInput.value );
+    console.log( 'The email is: ' + emailInput.value );
+    console.log( 'The message is: ' + messageInput.value );
 } );
