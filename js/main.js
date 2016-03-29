@@ -1,6 +1,6 @@
 function newtext() {
-    var newDOMElement = document.createElement( 'article' );
-    newDOMElement.innerHTML = ( '<p>This is click number</p><p id="clicks">1</p>' );
+    var newDOMElement = document.createElement( 'p' );
+    newDOMElement.innerHTML = 'This is click number x';
     document.body.appendChild( newDOMElement );
 }
 heading.addEventListener( 'click', newtext );
