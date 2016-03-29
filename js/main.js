@@ -7,10 +7,3 @@ function newtext() {
 heading.addEventListener( 'click', newtext );
 
 var counter = 1;
-function add() {
-    return counter += 1;
-}
-
-function myFunction () {
-    document.getElementById( 'clicks' ).innerHTML = add();
-}
